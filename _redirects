@@ -1,0 +1,13 @@
+# Netlify redirects. Unknown paths are served /404.html automatically (with a 404 status).
+
+# Short, shareable links
+/resume     /assets/resume/Mayur-Pol-Resume.pdf     302
+/cv         /assets/resume/Mayur-Pol-Resume.pdf     302
+/linkedin   https://www.linkedin.com/in/mayur-pol-159928285   302
+
+# Section shortcuts, e.g. https://your-site.netlify.app/projects
+/about          /#about          302
+/experience     /#experience     302
+/projects       /#projects       302
+/skills         /#skills         302
+/contact        /#contact        302

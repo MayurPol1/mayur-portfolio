@@ -1,0 +1,71 @@
+/* ==========================================================================
+   Animations — subtle, purposeful, and disabled for reduced motion.
+   ========================================================================== */
+
+@keyframes pulse-ring {
+  0% { transform: scale(0.6); opacity: 0.7; }
+  80%, 100% { transform: scale(1.8); opacity: 0; }
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+@keyframes fade-up {
+  from { opacity: 0; transform: translateY(14px); }
+  to { opacity: 1; transform: none; }
+}
+
+@keyframes toast-in {
+  from { opacity: 0; transform: translateY(12px) scale(0.98); }
+  to { opacity: 1; transform: none; }
+}
+
+@keyframes modal-in {
+  from { opacity: 0; transform: translateY(16px) scale(0.985); }
+  to { opacity: 1; transform: none; }
+}
+
+@keyframes backdrop-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* Scroll reveal: content is only hidden once JS has confirmed it can reveal it. */
+.js-reveal .reveal {
+  opacity: 0;
+  transform: translateY(18px);
+  transition: opacity 0.7s var(--ease), transform 0.7s var(--ease);
+  transition-delay: var(--reveal-delay, 0ms);
+}
+.js-reveal .reveal.is-visible { opacity: 1; transform: none; }
+
+.hero-copy > * { animation: fade-up 0.8s var(--ease) both; }
+.hero-copy > *:nth-child(2) { animation-delay: 60ms; }
+.hero-copy > *:nth-child(3) { animation-delay: 120ms; }
+.hero-copy > *:nth-child(4) { animation-delay: 180ms; }
+.hero-copy > *:nth-child(5) { animation-delay: 240ms; }
+.hero-copy > *:nth-child(6) { animation-delay: 300ms; }
+.hero-copy > *:nth-child(n + 7) { animation-delay: 360ms; }
+.hero-visual { animation: fade-up 1s var(--ease) 200ms both; }
+
+/* `backwards` (not `both`) so the finished animation doesn't pin transform and block the hover lift. */
+.projects-grid.animate-in .project-card { animation: fade-up 0.45s var(--ease) backwards; animation-delay: var(--reveal-delay, 0ms); }
+
+.modal[open] { animation: modal-in 0.32s var(--ease); }
+.modal[open]::backdrop { animation: backdrop-in 0.25s ease; }
+.toast { animation: toast-in 0.3s var(--ease); }
+.toast.is-leaving { opacity: 0; transform: translateY(8px); transition: opacity 0.25s ease, transform 0.25s ease; }
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    transition-delay: 0ms !important;
+  }
+  .js-reveal .reveal { opacity: 1; transform: none; }
+}

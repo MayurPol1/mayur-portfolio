@@ -1,0 +1,417 @@
+{
+  "version": 1,
+  "profile": {
+    "name": "Mayur Pol",
+    "fullName": "Mayur Subhash Pol",
+    "title": ".NET Developer",
+    "tagline": ".NET Developer | ASP.NET Core | C# | Web API | SQL Server",
+    "headline": "I build secure, scalable web applications and RESTful APIs with C# and ASP.NET Core.",
+    "intro": "{years} years delivering multi-tenant SaaS platforms, healthcare systems and enterprise websites — from clean API design and Entity Framework Core data access to JWT security, payments and reporting.",
+    "availability": "Open to .NET Developer opportunities",
+    "contactIntro": "I'm open to .NET Developer roles and backend engineering opportunities. Email or LinkedIn is the quickest way to reach me, or use the form and I'll reply by email.",
+    "location": "Pune, Maharashtra, India",
+    "email": "polmayur29@gmail.com",
+    "phone": "+91 86987 03076",
+    "linkedin": "https://www.linkedin.com/in/mayur-pol-159928285",
+    "github": "",
+    "photo": "assets/images/profile.svg",
+    "photoAlt": "Portrait of Mayur Pol",
+    "resume": "assets/resume/Mayur-Pol-Resume.pdf",
+    "resumeFileName": "Mayur-Pol-Resume.pdf",
+    "careerStart": "2024-05",
+    "experienceOverride": "",
+    "heroSkills": [
+      "C#",
+      "ASP.NET Core MVC",
+      "ASP.NET Core Web API",
+      "Entity Framework Core",
+      "LINQ",
+      "SQL Server",
+      "JavaScript",
+      "React.js",
+      "AWS"
+    ],
+    "stats": [
+      { "value": "{years}", "label": "Years of experience" },
+      { "value": "{companies}", "label": "Companies" },
+      { "value": "{projects}", "label": "Production projects" },
+      { "value": "230+", "label": "Schema migrations maintained" }
+    ],
+    "about": {
+      "summary": [
+        "I'm a .NET Backend Developer based in Pune, Maharashtra, with {years} years of experience building web applications and RESTful APIs using C#, ASP.NET Core MVC and ASP.NET Core Web API.",
+        "My work spans a multi-tenant SaaS platform for US law firms and contractors, a healthcare management system and the corporate and product website of Panasonic Life Solutions India. I own backend features end to end — data modelling with Entity Framework Core on SQL Server and MySQL, JWT authentication with role-based access control and tenant isolation, Stripe payment integrations, and reporting APIs with Excel and PDF exports.",
+        "After a Bachelor of Engineering in Mechanical Engineering, I moved into software through CDAC's Post Graduate Diploma in Advanced Computing. More recently I've been building AI-assisted features, including conversational case management and an OCR + LLM document-extraction pipeline delivered through a Python FastAPI microservice."
+      ],
+      "expertise": [
+        "RESTful API design with ASP.NET Core Web API",
+        "Multi-tenant SaaS architecture and tenant isolation",
+        "JWT authentication and role-based access control",
+        "Data access with Entity Framework Core, LINQ, SQL Server and MySQL",
+        "Payment integrations with Stripe Checkout",
+        "Reporting APIs with Excel and PDF exports",
+        "LLM integration and OCR-based document extraction"
+      ],
+      "interests": [
+        "Backend engineering on ASP.NET Core and modern .NET",
+        "Secure, scalable SaaS and API platforms",
+        "Cloud-hosted .NET applications on AWS",
+        "Practical AI features inside business software"
+      ]
+    }
+  },
+  "sections": [
+    { "id": "about", "label": "About", "title": "About Me", "subtitle": "A backend developer who cares about clean APIs, reliable data and secure workflows.", "visible": true },
+    { "id": "experience", "label": "Experience", "title": "Work Experience", "subtitle": "Where I've been building production .NET software.", "visible": true },
+    { "id": "projects", "label": "Projects", "title": "Selected Projects", "subtitle": "Production systems I've built and maintained. Client source code stays private, so details are shared at a high level.", "visible": true },
+    { "id": "skills", "label": "Skills", "title": "Technical Skills", "subtitle": "The technologies I use to ship reliable software. Highlighted skills are my primary stack.", "visible": true },
+    { "id": "education", "label": "Education", "title": "Education", "subtitle": "Academic foundation and advanced computing training.", "visible": true },
+    { "id": "certifications", "label": "Certifications", "title": "Certifications", "subtitle": "Courses and credentials.", "visible": true },
+    { "id": "achievements", "label": "Highlights", "title": "Key Contributions", "subtitle": "Technical contributions from my professional work.", "visible": true },
+    { "id": "contact", "label": "Contact", "title": "Let's Work Together", "subtitle": "Have a role, a project or a question? I'd be glad to hear from you.", "visible": true }
+  ],
+  "experience": [
+    {
+      "id": "exp-nebel",
+      "company": "Nebel Infotech",
+      "designation": "Software Developer",
+      "employmentType": "",
+      "location": "",
+      "start": "2026-05",
+      "end": "",
+      "current": true,
+      "project": "PerfectLien / AnyLien — Lien Case Management Platform",
+      "summary": "",
+      "responsibilities": [
+        "Develop RESTful APIs with ASP.NET Core Web API for a multi-tenant SaaS platform serving US law firms and contractors.",
+        "Implement tenant-scoped authentication and authorization with JWT, role-based access control and tenant isolation across Super Admin, Law Firm Admin, Client and Employee roles.",
+        "Build backend workflows for construction lien case management — contractor-hierarchy parties, unpaid work months, configurable lien stages and statutory deadline calculations.",
+        "Develop paginated, filterable reporting APIs for cases, deadlines, client billing, revenue and usage, with Excel and PDF exports.",
+        "Maintain database schema changes through 230+ migrations, using soft deletes and GUID-based keys."
+      ],
+      "contributions": [
+        "Integrated Stripe Checkout for invoices, payment plans and discounts, with credit-based controls for notice sending.",
+        "Implemented AI-assisted case management driven by conversational inputs.",
+        "Built an OCR + LLM document-extraction pipeline delivered through a Python FastAPI microservice."
+      ],
+      "technologies": ["C#", "ASP.NET Core Web API", "Entity Framework Core", "SQL Server", "JWT", "Stripe", "Python (FastAPI)", "LLM Integration"],
+      "visible": true
+    },
+    {
+      "id": "exp-obelisk",
+      "company": "Obelisk Infosystem",
+      "designation": "Software Developer",
+      "employmentType": "",
+      "location": "",
+      "start": "2025-06",
+      "end": "2026-05",
+      "current": false,
+      "project": "Healthcare Management System",
+      "summary": "",
+      "responsibilities": [
+        "Developed and maintained a healthcare management web application using ASP.NET Core MVC and ASP.NET Core Web API.",
+        "Designed RESTful APIs and implemented C# business logic for core healthcare workflows.",
+        "Used Entity Framework Core and MySQL for data access, schema design and query optimization.",
+        "Built dynamic user-interface functionality with jQuery and AJAX to consume backend APIs."
+      ],
+      "contributions": [
+        "Resolved application bugs, handled exception logging and supported production releases.",
+        "Managed source control with Git and GitHub and collaborated with the team through code reviews."
+      ],
+      "technologies": ["C#", "ASP.NET Core MVC", "ASP.NET Core Web API", "Entity Framework Core", "MySQL", "jQuery", "Git", "GitHub"],
+      "visible": true
+    },
+    {
+      "id": "exp-publicis",
+      "company": "Publicis Sapient (Digitas)",
+      "designation": "Software Developer",
+      "employmentType": "",
+      "location": "",
+      "start": "2024-05",
+      "end": "2025-06",
+      "current": false,
+      "project": "Panasonic Life Solutions India (lsin.panasonic.com)",
+      "summary": "",
+      "responsibilities": [
+        "Developed and maintained backend services and RESTful APIs in C# and .NET for Panasonic Life Solutions India's corporate and product website.",
+        "Exposed APIs for product listings, categories, filters and product details to power the product catalogue and search experience.",
+        "Built backend processing for business enquiry and customer support forms, including validation, data storage and email notifications.",
+        "Optimized SQL queries and API performance; handled exception management, logging and production bug fixes.",
+        "Collaborated with frontend developers on API contracts and took part in code reviews, unit testing and Agile/Scrum ceremonies."
+      ],
+      "contributions": [
+        "Built the quotation basket (“Get a Quote”) APIs, letting users add products and request quotations.",
+        "Implemented the Dealer Locator backend, including location-based dealer search."
+      ],
+      "technologies": ["C#", ".NET", "SQL", "REST APIs"],
+      "visible": true
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj-perfectlien",
+      "name": "PerfectLien / AnyLien",
+      "category": "professional",
+      "organization": "Nebel Infotech",
+      "duration": "May 2026 – Present",
+      "summary": "Multi-tenant SaaS platform that helps US law firms and contractors manage construction lien cases, statutory deadlines, billing and notices.",
+      "overview": "PerfectLien / AnyLien is a lien case management platform for US law firms and contractors. I work on the ASP.NET Core Web API backend that powers multi-tenant case management, role-based workflows, payments, reporting and AI-assisted features.",
+      "problem": "Construction lien work is deadline-driven and document-heavy. Firms have to track contractor hierarchies, unpaid work months and statutory deadlines across many clients, while keeping every tenant's data strictly isolated.",
+      "solution": "A multi-tenant RESTful backend with JWT-based, tenant-scoped authorization; configurable lien stages with statutory deadline calculations; Stripe-powered billing; filterable reporting with Excel and PDF exports; and AI-assisted data entry through conversational inputs and OCR + LLM document extraction.",
+      "responsibilities": [
+        "Developed RESTful APIs with ASP.NET Core Web API for the multi-tenant platform.",
+        "Implemented JWT authentication, role-based access control and tenant isolation across Super Admin, Law Firm Admin, Client and Employee roles.",
+        "Built lien case workflows: contractor-hierarchy parties, unpaid work months, configurable stages and statutory deadline calculations.",
+        "Integrated Stripe Checkout and credit-based controls for notice sending.",
+        "Built paginated, filterable reporting APIs with Excel and PDF exports.",
+        "Maintained the database schema through 230+ migrations with soft deletes and GUID-based keys."
+      ],
+      "features": [
+        "Tenant isolation with Super Admin, Law Firm Admin, Client and Employee roles",
+        "Configurable lien stages with statutory deadline calculations",
+        "Contractor-hierarchy parties and unpaid work-month tracking",
+        "Stripe Checkout for invoices, payment plans and discounts",
+        "Credit-based controls for notice sending",
+        "Reports for cases, deadlines, client billing, revenue and usage with Excel/PDF export",
+        "AI-assisted case management from conversational inputs",
+        "OCR + LLM document extraction through a Python FastAPI microservice"
+      ],
+      "technologies": ["C#", "ASP.NET Core Web API", "Entity Framework Core", "SQL Server", "JWT", "Stripe", "Python (FastAPI)", "LLM Integration"],
+      "images": [],
+      "githubUrl": "",
+      "liveUrl": "",
+      "featured": true,
+      "confidential": true,
+      "status": "published"
+    },
+    {
+      "id": "proj-healthcare",
+      "name": "Healthcare Management System",
+      "category": "professional",
+      "organization": "Obelisk Infosystem",
+      "duration": "Jun 2025 – May 2026",
+      "summary": "Web application for core healthcare workflows, built with ASP.NET Core MVC, ASP.NET Core Web API, Entity Framework Core and MySQL.",
+      "overview": "A healthcare management web application that I developed and maintained across the ASP.NET Core stack — MVC views, RESTful APIs, C# business logic and the MySQL data layer.",
+      "problem": "Healthcare teams depend on software that keeps their day-to-day workflows consistent and available, so the application needed dependable business rules, responsive screens and stable production releases.",
+      "solution": "An ASP.NET Core MVC application backed by RESTful Web APIs, with business logic in C#, Entity Framework Core over MySQL for data access, and jQuery/AJAX for dynamic, API-driven screens.",
+      "responsibilities": [
+        "Developed and maintained features with ASP.NET Core MVC and ASP.NET Core Web API.",
+        "Designed RESTful APIs and implemented C# business logic for core healthcare workflows.",
+        "Handled data access, schema design and query optimization with Entity Framework Core and MySQL.",
+        "Built dynamic UI behaviour with jQuery and AJAX.",
+        "Fixed bugs, handled exception logging and supported production releases."
+      ],
+      "features": [
+        "RESTful APIs for core healthcare workflows",
+        "ASP.NET Core MVC interface with dynamic jQuery/AJAX updates",
+        "Entity Framework Core data layer with optimized MySQL queries",
+        "Exception logging and production release support"
+      ],
+      "technologies": ["C#", "ASP.NET Core MVC", "ASP.NET Core Web API", "Entity Framework Core", "MySQL", "jQuery", "AJAX", "Git"],
+      "images": [],
+      "githubUrl": "",
+      "liveUrl": "",
+      "featured": true,
+      "confidential": true,
+      "status": "published"
+    },
+    {
+      "id": "proj-panasonic",
+      "name": "Panasonic Life Solutions India",
+      "category": "professional",
+      "organization": "Publicis Sapient (Digitas)",
+      "duration": "May 2024 – Jun 2025",
+      "summary": "Backend services and RESTful APIs for Panasonic Life Solutions India's corporate and product website — catalogue, quotations, dealer locator and enquiries.",
+      "overview": "Backend development for lsin.panasonic.com, the corporate and product website of Panasonic Life Solutions India, delivered at Publicis Sapient (Digitas).",
+      "problem": "The website needed reliable backend services for a large product catalogue, quote requests, dealer discovery and business enquiries — all performing well under public traffic.",
+      "solution": "C# / .NET RESTful APIs for product listings, categories, filters and details; a quotation basket for “Get a Quote”; location-based dealer search; and validated enquiry and support-form processing with storage and email notifications, backed by tuned SQL queries.",
+      "responsibilities": [
+        "Developed and maintained backend services and RESTful APIs in C# and .NET.",
+        "Built the quotation basket (“Get a Quote”) and Dealer Locator APIs.",
+        "Exposed product catalogue APIs for listings, categories, filters and product details.",
+        "Implemented enquiry and customer-support form processing with validation, storage and email notifications.",
+        "Optimized SQL queries and API performance; handled logging and production bug fixes."
+      ],
+      "features": [
+        "Product catalogue APIs: listings, categories, filters and product details",
+        "Quotation basket (“Get a Quote”) for multi-product quote requests",
+        "Dealer Locator with location-based dealer search",
+        "Business enquiry and customer support forms with email notifications",
+        "Optimized SQL queries, exception management and logging"
+      ],
+      "technologies": ["C#", ".NET", "SQL", "REST APIs"],
+      "images": [],
+      "githubUrl": "",
+      "liveUrl": "https://lsin.panasonic.com/",
+      "featured": true,
+      "confidential": true,
+      "status": "published"
+    }
+  ],
+  "skills": [
+    {
+      "id": "skill-languages",
+      "category": "Programming Languages",
+      "icon": "code",
+      "items": [
+        { "name": "C#", "core": true },
+        { "name": "SQL", "core": true },
+        { "name": "JavaScript", "core": false }
+      ]
+    },
+    {
+      "id": "skill-backend",
+      "category": "Backend Development",
+      "icon": "server",
+      "items": [
+        { "name": "ASP.NET Core", "core": true },
+        { "name": "ASP.NET Core Web API", "core": true },
+        { "name": "ASP.NET Core MVC", "core": true },
+        { "name": ".NET", "core": true },
+        { "name": "RESTful APIs", "core": true },
+        { "name": "Entity Framework Core", "core": true },
+        { "name": "LINQ", "core": false },
+        { "name": "Stripe Checkout", "core": false },
+        { "name": "Email Integration", "core": false },
+        { "name": "LLM Integration", "core": false },
+        { "name": "OCR Document Extraction", "core": false },
+        { "name": "Excel / PDF Reporting", "core": false }
+      ]
+    },
+    {
+      "id": "skill-frontend",
+      "category": "Frontend Development",
+      "icon": "layout",
+      "items": [
+        { "name": "JavaScript", "core": false },
+        { "name": "React.js", "core": false },
+        { "name": "jQuery", "core": false },
+        { "name": "AJAX", "core": false },
+        { "name": "HTML5", "core": false },
+        { "name": "CSS3", "core": false }
+      ]
+    },
+    {
+      "id": "skill-databases",
+      "category": "Databases",
+      "icon": "database",
+      "items": [
+        { "name": "SQL Server", "core": true },
+        { "name": "MySQL", "core": true },
+        { "name": "Schema Design & Migrations", "core": false },
+        { "name": "Query Optimization", "core": false }
+      ]
+    },
+    {
+      "id": "skill-cloud",
+      "category": "Cloud and Deployment",
+      "icon": "cloud",
+      "items": [
+        { "name": "AWS", "core": false },
+        { "name": "Production Release Support", "core": false }
+      ]
+    },
+    {
+      "id": "skill-security",
+      "category": "Authentication and Security",
+      "icon": "shield",
+      "items": [
+        { "name": "JWT Authentication", "core": true },
+        { "name": "Role-Based Access Control", "core": true },
+        { "name": "Multi-Tenant Architecture", "core": false },
+        { "name": "Tenant Isolation", "core": false }
+      ]
+    },
+    {
+      "id": "skill-testing",
+      "category": "Testing",
+      "icon": "flask",
+      "items": [
+        { "name": "Unit Testing", "core": false },
+        { "name": "API Testing with Postman", "core": false },
+        { "name": "Debugging & Production Bug Fixing", "core": false },
+        { "name": "Code Reviews", "core": false }
+      ]
+    },
+    {
+      "id": "skill-tools",
+      "category": "Developer Tools",
+      "icon": "wrench",
+      "items": [
+        { "name": "Visual Studio", "core": false },
+        { "name": "Git", "core": false },
+        { "name": "GitHub", "core": false },
+        { "name": "Postman", "core": false }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "id": "edu-dac",
+      "degree": "Post Graduate Diploma in Advanced Computing (PG-DAC)",
+      "specialization": "",
+      "college": "CDAC (Centre for Development of Advanced Computing)",
+      "university": "",
+      "startYear": "",
+      "endYear": "September 2023",
+      "score": "",
+      "description": "",
+      "visible": true
+    },
+    {
+      "id": "edu-be",
+      "degree": "Bachelor of Engineering (B.E.)",
+      "specialization": "Mechanical Engineering",
+      "college": "",
+      "university": "Pune University",
+      "startYear": "",
+      "endYear": "2021",
+      "score": "",
+      "description": "",
+      "visible": true
+    }
+  ],
+  "certifications": [],
+  "achievements": [
+    {
+      "id": "ach-migrations",
+      "title": "230+ schema migrations maintained",
+      "description": "Kept a fast-moving SaaS database schema healthy through 230+ migrations, using soft deletes and GUID-based keys.",
+      "context": "Nebel Infotech · PerfectLien / AnyLien",
+      "icon": "layers",
+      "visible": true
+    },
+    {
+      "id": "ach-ai",
+      "title": "OCR + LLM document extraction",
+      "description": "Delivered AI-assisted case management and an OCR + LLM document-extraction pipeline through a Python FastAPI microservice.",
+      "context": "Nebel Infotech · PerfectLien / AnyLien",
+      "icon": "sparkles",
+      "visible": true
+    },
+    {
+      "id": "ach-security",
+      "title": "Multi-tenant security across four roles",
+      "description": "Implemented tenant-scoped JWT authentication and role-based access control for Super Admin, Law Firm Admin, Client and Employee users.",
+      "context": "Nebel Infotech · PerfectLien / AnyLien",
+      "icon": "shield",
+      "visible": true
+    },
+    {
+      "id": "ach-payments",
+      "title": "Stripe payments and credit controls",
+      "description": "Integrated Stripe Checkout for invoices, payment plans and discounts, with credit-based controls for notice sending.",
+      "context": "Nebel Infotech · PerfectLien / AnyLien",
+      "icon": "zap",
+      "visible": true
+    },
+    {
+      "id": "ach-panasonic",
+      "title": "Enterprise website APIs for Panasonic",
+      "description": "Built the quotation basket and Dealer Locator APIs for Panasonic Life Solutions India's corporate and product website.",
+      "context": "Publicis Sapient (Digitas)",
+      "icon": "globe",
+      "visible": true
+    }
+  ]
+}
