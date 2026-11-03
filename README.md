@@ -124,7 +124,7 @@ Text fields support these tokens, which are calculated automatically:
 
 ## Edit Mode
 
-**Turn it on:** open the site with `?edit` at the end of the URL (e.g. `https://endearing-swan-1704a4.netlify.app/?edit` or `http://localhost:8080/?edit`), or press **Alt + Shift + E**. It stays on in that browser until you click **Exit**.
+**Turn it on:** open the site with `?edit` at the end of the URL (e.g. `https://portfoliomayur45.netlify.app/?edit` or `http://localhost:8080/?edit`), or press **Alt + Shift + E**. It stays on in that browser until you click **Exit**.
 
 When it's on, a toolbar appears at the bottom and every card gets controls:
 
@@ -271,7 +271,7 @@ The free plan includes 100 submissions per month. Netlify's spam filtering plus 
 
 ## Before you go live — checklist
 
-- [x] **Site URL** is set to `https://endearing-swan-1704a4.netlify.app/`. If the address ever changes (site rename or custom domain), update it in `index.html` (canonical, Open Graph, Twitter and JSON-LD tags), `sitemap.xml` and `robots.txt`.
+- [x] **Site URL** is set to `https://portfoliomayur45.netlify.app/` (the GitHub-connected Netlify project; every push to `main` redeploys it). If the address ever changes (site rename or custom domain), update it in `index.html` (canonical, Open Graph, Twitter and JSON-LD tags), `sitemap.xml` and `robots.txt`.
 - [ ] **Add your GitHub profile** URL (`profile.github`). GitHub links are hidden until it's set.
 - [ ] **Add your photo** (see above).
 - [ ] **Employment type** (Full-time, etc.) isn't in the resume, so it's blank for each role. Fill it in if you want it shown.
