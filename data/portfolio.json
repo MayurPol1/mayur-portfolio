@@ -4,7 +4,7 @@
     "name": "Mayur Pol",
     "fullName": "Mayur Subhash Pol",
     "title": ".NET Developer",
-    "tagline": ".NET Developer | ASP.NET Core | C# | Web API | SQL Server",
+    "tagline": ".NET Developer",
     "headline": "I build secure, scalable web applications and RESTful APIs with C# and ASP.NET Core.",
     "intro": "{years} years delivering multi-tenant SaaS platforms, healthcare systems and enterprise websites — from clean API design and Entity Framework Core data access to JWT security, payments and reporting.",
     "availability": "Open to .NET Developer opportunities",
@@ -28,14 +28,12 @@
       "LINQ",
       "SQL Server",
       "JavaScript",
-      "React.js",
       "AWS"
     ],
     "stats": [
       { "value": "{years}", "label": "Years of experience" },
       { "value": "{companies}", "label": "Companies" },
-      { "value": "{projects}", "label": "Production projects" },
-      { "value": "230+", "label": "Schema migrations maintained" }
+      { "value": "{projects}", "label": "Production projects" }
     ],
     "about": {
       "summary": [
@@ -213,7 +211,7 @@
       "liveUrl": "",
       "featured": true,
       "confidential": true,
-      "status": "published"
+      "status": "published" 
     },
     {
       "id": "proj-panasonic",
